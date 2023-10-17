@@ -1,0 +1,30 @@
+.cuerpo{
+    text-align: center;
+    justify-content: center;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    padding-top: 10%;
+    font-size: xxx-large;
+    color: white;
+    font-weight: bolder;
+}
+
+.pez{
+    position: fixed;
+    font-size: xx-large;
+    animation: 5s linear bajar;
+}
+
+@keyframes bajar {
+    from {
+      transform: translateY(0px);
+    }
+  
+    to {
+      transform: translateY(1080px);
+    }
+  }
